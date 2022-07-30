@@ -63,28 +63,33 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
     //data = markdown string
     //filename = OUTPUT_README.md
+    // const readMeFile = generateHTML(response);
+    // fs.writeFile('output_README.md', readMeFile, (err) =>
+    //     err ? console.error(err) : console.log("Page Created!")
+    // )
+    console.log(data);
+    console.log("Sucessfully Created File!");
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
     //Ask the user the questions
-    // for (const question of questions) {
-    //     inquirer
-    //         .prompt([
-    //             {
-    //                 question
-    //             },
-    //         ])
-    //         .then(answers => {
-    //             console.log(question[2]);
-    //         });
-    // }
+        // console.log(question);
+        inquirer
+            .prompt([ 
+                ...questions
+            ])
+            .then((response) => {
+                writeToFile(response);
+            });
+    }
         //THEN I want to pass responses to generateMarkdown so we can get the markdown
 
         //THEN write the 'markdown' to a file like 'OUTPUT_README.md'
 
 // Function call to initialize app
 init();
+
