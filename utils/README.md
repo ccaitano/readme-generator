@@ -1,74 +1,8 @@
-// TODO: Include packages needed for this application
-//Writes files
-const fs = require("fs");
-//Asks user for data
-const inquirer = require("inquirer");
-//Generate markdown file
-const generateMd = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
-const questions = [
-    {
-        type: "input",
-        message: "Welcome to the README File Generator. Please press 'ENTER' to begin.",
-        name: "welcome"
-    },
-    {
-        type:"input",
-        message: "Please enter your project title: ",
-        name: "title"
-    },
-    {
-        type: "input",
-        message: "Please enter your project description: ",
-        name: "description"
-    },
-    {
-        type: "input",
-        message: "Please enter your installation instructions: ",
-        name: "installins"
-    },
-    {
-        type: "input",
-        message: "Please enter your usage information: ",
-        name: "usage"
-    },
-    {
-        type: "input",
-        message: "Please enter your contribution guidelines: ",
-        name: "contributions"
-    },
-    {
-        type: "input",
-        message: "Please enter your test instructions: ",
-        name: "testins"
-    },
-    {
-        type: "list",
-        message: "Please choose a liceense applicable to your project.",
-        name: "license",
-        choices: ["MIT","None"],
-        default: "None"
-    },
-    {
-        type: "input",
-        message: "Please enter your GitHub username: ",
-        name: "username"
-    },
-    {
-        type: "input",
-        message: "Please enter your e-mail address: ",
-        name: "email"
-    }
-];
-
-// TODO: Create a function to write README file
-function writeToFile(data) {
-    readMeString = `
-# ${data.title} - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-${data.description}
+# title - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+description
     
-➡️ [DEPLOYED APPLICATION](https://${data.username}.github.io/${data.title}/)
+➡️ [DEPLOYED APPLICATION](https://username.github.io/title/)
     
 ## **Description**
     
@@ -88,7 +22,7 @@ To install this application, make a clone of this repository to your local machi
     
 ## **Usage 📜**
     
-Visit the [deployed site](https://${data.username}.github.io/${data.title}/), then:
+Visit the [deployed site](https://username.github.io/title/), then:
     
 - Enter a city in the search input field and select the Search button
 - Current weather and a five day forecast for the selected city will be displayed on the screen.
@@ -99,9 +33,9 @@ Visit the [deployed site](https://${data.username}.github.io/${data.title}/), th
 ## **License 🎫**
     
 <p>
-${data.license} License
+MIT License
     
-Copyright &copy; 2022 ${data.username}
+Copyright &copy; 2022 username
     
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -137,27 +71,6 @@ SOFTWARE.
     
 For any questions or contributions please contact me on Github or by e-mail:
     
-[Github Profile](https://www.github.com/${data.username})  
-[Email Me](mailto:${data.email})
-    `
-
-    fs.writeFile('./utils/README.md', readMeString, (err) =>
-        err ? console.error(err) : console.log("README.md file successfully created!")
-    )
-}
-
-// TODO: Create a function to initialize app
-function init() {
-    //Ask the user the questions
-        inquirer
-            .prompt([ 
-                ...questions
-            ])
-            .then((response) => {
-                writeToFile(response);
-            });
-    }
-
-// Function call to initialize app
-init();
-
+[Github Profile](https://www.github.com/username)  
+[Email Me](mailto:email)
+    
