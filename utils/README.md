@@ -1,60 +1,67 @@
 
-#  - 
-
-
+# readme-generator - [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
     
-➡️ [DEPLOYED APPLICATION](https://.github.io//)
+➡️ [DEPLOYED APPLICATION](https://ccaitano.github.io/readme-generator/)
     
 ## **Description**
     
-The Weather Dashboard allows the user search for weather for a particular city. Upon entering a city, the current weather for that city will be displayed including the temperature, humidity, UV index, windspeed and weather icon. The user will also be presented with a five day forecast for the same city. This website will save the user's recent history to recall their latest searches.
+README file generator for github projects
     
 ## **Table of Contents**
     
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Technology](#technology)
+- [Contributions](#contributions)
+- [Test](#test)
 - [Questions](#questions)
     
-## **Installation 💽**
+## **Installation**
     
-To install this application, make a clone of this repository to your local machine. Open the repository in your code editor of choice, and open the index.html file in your browser 🖥️
+Download link
     
-## **Usage 📜**
+## **Usage**
     
-Visit the [deployed site](https://.github.io//), then:
+Visit the [deployed site](https://ccaitano.github.io/readme-generator/), then:
     
-- Enter a city in the search input field and select the Search button
-- Current weather and a five day forecast for the selected city will be displayed on the screen.
-- Select the Clear Search History button to remove all recent searches.
+Use wisely
     
-## **License 🎫**
+## **License**
 
-[None License]()
+[Apache 2.0 License](https://opensource.org/licenses/Apache-2.0)
     
-Copyright &copy; 2022 
+Copyright &copy; 2022 ccaitano
   
 <p>
 
 
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
     
 </p>
     
-## **Technology 🖥️**
+## **Contributions**
     
-- [JavaScript](https://www.javascript.com/) Scripting Language
-- [HTML](https://html.com/) Markup Language
-- [CSS](https://www.w3schools.com/css/) Stylesheet Language
-- [Bootstrap](https://getbootstrap.com/) Bootstrap Toolkit
-- [Day.js](https://day.js.org/) Day.js
-- [jQuery](https://jquery.com/) jQuery Library
-- [OpenWeather](https://openweathermap.org/) OpenWeather API
-    
-## **Questions ❓**
+Contribute at your own risk
+
+## **Test**
+
+Test 1,2,3
+
+## **Questions**
     
 For any questions or contributions please contact me on Github or by e-mail:
     
-[Github Profile](https://www.github.com/)  
-[Email Me](mailto:)
+[Github Profile](https://www.github.com/ccaitano)  
+[Email Me](mailto:cheryl.caitano@gmail.com)
     

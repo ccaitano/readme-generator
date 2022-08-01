@@ -22,7 +22,6 @@ function renderLicenseBadge(license) {
       readmeBadge = noBadge;
       break;  
   }
-  console.log(readmeBadge);
   return readmeBadge;
 }
 
@@ -90,9 +89,6 @@ function renderLicenseSection(license) {
   return readmeLicense;
 }
 
-// function renderTitle(title) {
-//   return `# ${data.title}`;
-// }
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const license = data.license;
@@ -101,36 +97,33 @@ function generateMarkdown(data) {
   renderLicenseSection(license);
     readMeString = `
 # ${data.title} - ${readmeBadge}
-
-${data.description}
     
 ➡️ [DEPLOYED APPLICATION](https://${data.username}.github.io/${data.title}/)
     
 ## **Description**
     
-The Weather Dashboard allows the user search for weather for a particular city. Upon entering a city, the current weather for that city will be displayed including the temperature, humidity, UV index, windspeed and weather icon. The user will also be presented with a five day forecast for the same city. This website will save the user's recent history to recall their latest searches.
+${data.description}
     
 ## **Table of Contents**
     
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Technology](#technology)
+- [Contributions](#contributions)
+- [Test](#test)
 - [Questions](#questions)
     
-## **Installation 💽**
+## **Installation**
     
-To install this application, make a clone of this repository to your local machine. Open the repository in your code editor of choice, and open the index.html file in your browser 🖥️
+${data.installins}
     
-## **Usage 📜**
+## **Usage**
     
 Visit the [deployed site](https://${data.username}.github.io/${data.title}/), then:
     
-- Enter a city in the search input field and select the Search button
-- Current weather and a five day forecast for the selected city will be displayed on the screen.
-- Select the Clear Search History button to remove all recent searches.
+${data.usage}
     
-## **License 🎫**
+## **License**
 
 [${data.license} License](${readmeLink})
     
@@ -142,17 +135,15 @@ ${readmeLicense}
     
 </p>
     
-## **Technology 🖥️**
+## **Contributions**
     
-- [JavaScript](https://www.javascript.com/) Scripting Language
-- [HTML](https://html.com/) Markup Language
-- [CSS](https://www.w3schools.com/css/) Stylesheet Language
-- [Bootstrap](https://getbootstrap.com/) Bootstrap Toolkit
-- [Day.js](https://day.js.org/) Day.js
-- [jQuery](https://jquery.com/) jQuery Library
-- [OpenWeather](https://openweathermap.org/) OpenWeather API
-    
-## **Questions ❓**
+${data.contributions}
+
+## **Test**
+
+${data.testins}
+
+## **Questions**
     
 For any questions or contributions please contact me on Github or by e-mail:
     
@@ -162,6 +153,5 @@ For any questions or contributions please contact me on Github or by e-mail:
 
   return readMeString;
 }
-
 
 module.exports = generateMarkdown;
