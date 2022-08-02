@@ -15,7 +15,7 @@ const questions = [
     },
     {
         type:"input",
-        message: "Please enter your project title (Note: Must match GitHub project title for deployed links to function correctlyg): ",
+        message: "Please enter your project title (Note: Must match GitHub project title for deployed links to function correctly): ",
         name: "title"
     },
     {

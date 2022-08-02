@@ -34,6 +34,8 @@ README File Generator Prompt Example:
 
 Sample README File:
 
+[Sample README File](./assets/sample-README.md)
+
 ![Screenshot of Sample README](./assets/sample-readme.JPG)
 
 ## **License**
