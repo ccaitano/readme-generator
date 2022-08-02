@@ -2,7 +2,7 @@
 # readme-generator - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <!-- Remove Line Below if project is not published to GitHub -->
-➡️ [DEPLOYED APPLICATION](https://ccaitano.github.io/readme-generator/)
+➡️ [GitHub Repository](https://github.com/ccaitano/readme-generator/)
     
 ## **Description**
     
