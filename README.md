@@ -26,7 +26,15 @@ Once the repository is cloned to your local machine, then:
 - `README.md file successfully created!` will appear in your terminal once your file has been created
 - Locate your successfully generated README file at `./utils/README.md`
 
-![GIF of README Generator](./assets/readme-generator.gif)
+![GIF of README Generator Walkthrough](./assets/readme-generator.gif)
+
+README File Generator Prompt Example:
+
+![Screenshot of README Generator Prompt in Terminal](./assets/prompt-screenshot.JPG)
+
+Sample README File:
+
+![Screenshot of Sample README](./assets/sample-readme.JPG)
 
 ## **License**
 

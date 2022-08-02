@@ -74,7 +74,8 @@ function generateMarkdown(data) {
   renderLicense(license);
     readMeString = `
 # ${data.title} - ${readmeBadge}(${readmeLink})
-    
+
+<!-- Remove Line Below if project is not published to GitHub -->
 ➡️ [DEPLOYED APPLICATION](https://${data.username}.github.io/${data.title}/)
     
 ## **Description**
@@ -95,8 +96,6 @@ ${data.description}
 ${data.installins}
     
 ## **Usage**
-    
-Visit the [deployed site](https://${data.username}.github.io/${data.title}/), then:
     
 ${data.usage}
     
