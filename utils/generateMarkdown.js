@@ -78,7 +78,7 @@ function generateMarkdown(data) {
 # ${data.title} - ${readmeBadge}(${readmeLink})
 
 <!-- Remove Line Below if project is not published to GitHub -->
-➡️ [DEPLOYED APPLICATION](https://${data.username}.github.io/${data.title}/)
+➡️ [GitHub Repository](https://github.com/${data.username}/${data.title})
     
 ## **Description**
     
