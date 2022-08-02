@@ -5,6 +5,7 @@ let readmeLink = "";
 let readmeLicense = "";
 
 function renderLicense(license) {
+  //Defines different license options as objects
   const apacheLicense = {
     badge: "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]",
     link: "https://opensource.org/licenses/Apache-2.0",
@@ -72,6 +73,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 function generateMarkdown(data) {
   const license = data.license;
   renderLicense(license);
+    //Template literal to build README File
     readMeString = `
 # ${data.title} - ${readmeBadge}(${readmeLink})
 
@@ -127,4 +129,5 @@ For any questions or contributions please contact me on Github or by e-mail:
   return readMeString;
 }
 
+//Export to index.js
 module.exports = generateMarkdown;
