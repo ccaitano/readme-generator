@@ -12,14 +12,15 @@ The `README Generator` allows the user to generate a standard README file for ne
 - [Technology](#technology)
 - [Questions](#questions)
 
-## **Installation** 💽
+## **Installation**
 
 To install this application, make a `clone` of this repository to your local machine. Open the repository in your code editor of choice, and run the `index.js` file in your terminal 🖥️
 
-## **Usage** 📜
+## **Usage**
 
 Once the repository is cloned to your local machine, then:
 
+- Install npm inquirer version 8.2.4 by running `npm install inquirer@8.2.4` in your applicable terminal
 - Run `node index.js` in your applicable terminal
 - Follow the prompts in the terminal to enter your project title, description, installation instructions, usage information, contribution guidelines, test instructuions, applicable license information, GitHub username and e-mail address
 - `README.md file successfully created!` will appear in your terminal once your file has been created
@@ -27,7 +28,7 @@ Once the repository is cloned to your local machine, then:
 
 ![GIF of README Generator](./assets/readme-generator.gif)
 
-## **License** 🎫
+## **License**
 
 <p>
 MIT License
@@ -54,13 +55,13 @@ SOFTWARE.
 
 </p>
 
-## **Technology** 🖥️
+## **Technology**
 
 - [JavaScript](https://www.javascript.com/) Scripting Language
 - [Node](https://nodejs.org/en/) JavaScript runtime
 - [npm](https://www.npmjs.com/) Inquirer.js
 
-## **Questions** ❓
+## **Questions**
 
 For any questions or contributions please contact me on Github or by e-mail:
 
