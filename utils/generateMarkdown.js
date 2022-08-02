@@ -127,7 +127,7 @@ ${data.usage}
 
 [${data.license} License](${readmeLink})
     
-Copyright &copy; 2022 ${data.username}
+Copyright &copy;2022 - ${data.username}
   
 <p>
 

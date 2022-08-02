@@ -62,6 +62,6 @@ Test 1,2,3
     
 For any questions or contributions please contact me on Github or by e-mail:
     
-[Github Profile](https://www.github.com/ccaitano)  
-[Email Me](mailto:cheryl.caitano@gmail.com)
+- [Github Profile](https://www.github.com/ccaitano)  
+- [Email Me](mailto:cheryl.caitano@gmail.com)
     
